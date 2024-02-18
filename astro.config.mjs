@@ -9,7 +9,7 @@ export default defineConfig({
 			logo: {
 				src: "./public/icon.png"
 			},
-			favicon: './public/icon.png',
+			favicon: './icon.png',
 			social: {
 				github: 'https://github.com/LordexDuck3990/aoi.canvas',
 			},
