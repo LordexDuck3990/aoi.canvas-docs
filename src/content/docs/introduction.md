@@ -41,12 +41,12 @@ client.command({
     code: `Pong! $pingms`
 });
 
-//Canvas Command Example
+// Canvas Command Example
 client.command({
     name: "house",
     code: `
 $attachCanvas[mycanvas;house.png]
-$drawLines[mycanvas;draw;#03a9f4;50;140;150;60;250;140]
+$drawLines[mycanvas;draw;#03a9f4;50;140;150:60;250:140]
 $fillRect[mycanvas;#03a9f4;130;190;40;60]
 $strokeRect[mycanvas;#03a9f4;75;140;150;110]
 $createCanvas[mycanvas;300;320]
@@ -54,7 +54,7 @@ $createCanvas[mycanvas;300;320]
 })
 ```
 
-Feel free to dm me in discord (devlordduck2) if you have any questions or need help.
+Feel free to dm Lordex in discord (devlordduck2) if you have any questions or suggestions.
 Also feel free to dm Lightner in discord (lightner.) if you have any questions or suggestions specifically related to docs.
 
 Enjoy coding with aoi.canvas! ❤

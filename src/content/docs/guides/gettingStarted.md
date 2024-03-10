@@ -10,7 +10,7 @@ This guide assumes you have a basic understanding of aoi.js. It also assumes you
 ## Installation
 
 ```sh
-npm install https://github.com/LordexDuck3990/aoi.canvas.git#v2
+npm install aoi.canvas
 ```
 
 ## Setup
@@ -49,6 +49,9 @@ The following functions will be used in almost every sngle command
 
 We also need to know about
 * [$drawImage](../../functions/drawimage/) - to add external images (like user avatars)
+* [$fillRect](../../functions/fillRect/) - to draw rects on your canvas
 * [$fillText](../../functions/filltext/) - to write text on your canvas
 
 ## Creating your first image
+
+(not done yet)
