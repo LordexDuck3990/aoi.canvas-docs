@@ -21,9 +21,23 @@ $fillRect[canvas;color;x?;y?;width;height;radius?]
 | radius | The rect corners radius. | number | false |
 
 ## Example(s)
-<!-- TODO -->
-Description
+
+### This will draw a 250x250 red square
+
 ```
-Code soon:tm:
+$attachCanvas[redsquare;ball.png]
+$fillRect[redsquare;#FF0000;0;0;250;250]
+$createCanvas[redsquare;250;250]
 ```
-Future image here
+
+![Preview](../../../assets/showcases/redsquare.png)
+
+### This will draw a 250x250 red circle
+
+```
+$attachCanvas[redball;ball.png]
+$fillRect[redball;#FF0000;0;0;250;250;125]
+$createCanvas[redball;250;250]
+```
+
+![Preview](../../../assets/showcases/redball.png)

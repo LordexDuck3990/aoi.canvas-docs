@@ -10,7 +10,7 @@ aoi.canvas is a aoi.js extension that allows you to utilize canvas functions wit
 ## Installation
 
 ```sh
-npm install https://github.com/LordexDuck3990/aoi.canvas.git#v2
+npm install aoi.canvas
 ```
 
 ## Setup
@@ -46,7 +46,7 @@ client.command({
     name: "house",
     code: `
 $attachCanvas[mycanvas;house.png]
-$drawLines[mycanvas;draw;#03a9f4;50;140;150:60;250:140]
+$drawLines[mycanvas;draw;#03a9f4;10;50;140;150:60;250:140]
 $fillRect[mycanvas;#03a9f4;130;190;40;60]
 $strokeRect[mycanvas;#03a9f4;75;140;150;110]
 $createCanvas[mycanvas;300;320]

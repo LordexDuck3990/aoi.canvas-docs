@@ -21,7 +21,8 @@ export default defineConfig({
 				{
 					label: 'Guides',
 					items: [
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Getting Started', link: '/guides/gettingstarted/' },
+						{ label: 'Registering Fonts', link: '/guides/fontregistration/' }
 					],
 				},
 				{

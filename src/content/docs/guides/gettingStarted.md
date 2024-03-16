@@ -54,4 +54,4 @@ We also need to know about
 
 ## Creating your first image
 
-(not done yet)
+Soon:tm:
