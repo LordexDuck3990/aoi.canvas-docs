@@ -16,11 +16,11 @@ npm install aoi.canvas
 ## Setup
 
 ```js
-//Import packages
+// Import packages
 const { AoiClient } = require("aoi.js");
 const { AoiCanvas } = require("aoi.canvas");
 
-//Aoi.js client
+// Aoi.js client
 const client = new AoiClient({
     intents: ["Guilds", "GuildMessages", "MessageContent"],
     events: ["onMessage", "onInteractionCreate"],
@@ -35,7 +35,7 @@ const client = new AoiClient({
     }
 });
 
-//Add canvas functions to aoi.js
+// Setup the aoi.canvas
 const canvas = new AoiCanvas(client);
 ```
 
