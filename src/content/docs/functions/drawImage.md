@@ -18,12 +18,17 @@ $drawImage[canvas;src;x;y;width;height;radius?]
 | y | The image Y position. | number | true |
 | width | The image width. | number | true |
 | height | The image height. | number | true |
-| radius | The image corners radius. | number \| array | false |
+| radius | The image corners radius. | number \| number[] | false |
 
 ## Example(s)
-<!-- TODO -->
-Description
+
+### This will create a canvas with your avatar.
+
 ```
-Code soon:tm:
+$attachCanvas[avatar]
+$drawImage[avatar;$nonEscape[$authorAvatar];0;0;1024;1024]
+$createCanvas[avatar;1024;1024]
 ```
-Future image here
+
+![Preview](../../../assets/showcases/avatar.png)
+*(didnt knew my pfp quality is so bad o.o)*

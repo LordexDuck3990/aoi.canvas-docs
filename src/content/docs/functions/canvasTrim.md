@@ -4,6 +4,7 @@ description: Trims the canvas.
 ---
 
 Trims the canvas.
+
 ## Usage
 ```
 $canvasTrim[canvas]
@@ -15,9 +16,14 @@ $canvasTrim[canvas]
 | canvas | The canvas name. | string | true |
 
 ## Example(s)
-<!-- TODO -->
-Description
+
+### This will draw a red square and then trim the canvas
+
 ```
-Code soon:tm:
+$attachCanvas[redsquare;ball.png]
+New: $canvasSize[redsquare;width]x$canvasSize[redsquare;height] $canvasTrim[redsquare]$fillRect[redsquare;#FF0000;50;50;150;150]
+Old: $canvasSize[redsquare;width]x$canvasSize[redsquare;height]
+$createCanvas[redsquare;250;250]
 ```
-Future image here
+
+![Preview](../../../assets/showcases/trim.png)

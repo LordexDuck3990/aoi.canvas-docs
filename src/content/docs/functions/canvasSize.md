@@ -16,9 +16,14 @@ $canvasSize[canvas;property]
 | property | The canvas size property. | "width" \| "height" | true |
 
 ## Example(s)
-<!-- TODO -->
-Description
+
+### This will create a redsquare canvas and then send it with the old and after trimming size.
+
 ```
-Code soon:tm:
+$attachCanvas[redsquare;ball.png]
+New: $canvasSize[redsquare;width]x$canvasSize[redsquare;height] $canvasTrim[redsquare]$fillRect[redsquare;#FF0000;50;50;150;150]
+Old: $canvasSize[redsquare;width]x$canvasSize[redsquare;height]
+$createCanvas[redsquare;250;250]
 ```
-Future image here
+
+![Preview](../../../assets/showcases/trim-only.png)
