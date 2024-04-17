@@ -41,16 +41,17 @@ const canvas = new AoiCanvas(client);
 
 ## Before creating your first image
 
-In order to create images using aoi.canvas, we need to learn a few basic functions
+In order to create images using aoi.canvas, we need to learn a few basic functions.
 
-The following functions will be used in almost every sngle command
-* [$createCanvas](../../functions/createcanvas/) - to create canvases
-* [$attachCanvas](../../functions/attachcanvas/) - to send canvases
+The following functions will be used in almost every sngle command:
+* [$createCanvas](../../functions/createcanvas/) - to create canvases.
+* [$attachCanvas](../../functions/attachcanvas/) - to send canvases.
 
-We also need to know about
-* [$drawImage](../../functions/drawimage/) - to add external images (like user avatars)
-* [$fillRect](../../functions/fillRect/) - to draw rects on your canvas
-* [$fillText](../../functions/filltext/) - to write text on your canvas
+We also need to know about:
+* [$drawImage](../../functions/drawimage/) - to add external images. (like user avatars)
+* [$fillRect](../../functions/fillRect/) - to draw rects on your canvas.
+* [$fillText](../../functions/filltext/) - to write text on your canvas.
+* *etc.*
 
 ## Creating your first image
 
